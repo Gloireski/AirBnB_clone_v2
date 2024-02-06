@@ -7,7 +7,7 @@ apt-get install nginx -y
 
 mkdir -p /data/web_static/shared/
 mkdir -p /data/web_static/releases/test/
-sudo echo "<html>
+echo "<html>
   <head>
   </head>
   <body>
