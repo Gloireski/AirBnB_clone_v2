@@ -8,7 +8,7 @@ Routes:
     /c/<text>: display C followed by the value of the text variable
                (replace underscore _ symbols with a space )
     /python/<text>: display Python, followed by the value of the text
-               variable (replace underscore _ symbols with a space ) 
+               variable (replace underscore _ symbols with a space )
 """
 from flask import Flask
 
