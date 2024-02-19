@@ -13,7 +13,7 @@ Routes:
                 sorted by name (A->Z)
         LI tag: description of one State: <state.id>: <B><state.name></B>
                 + UL tag: with the list of City objects linked to the
-                State sorted by name (A->Z) 
+                State sorted by name (A->Z)
         LI tag: description of one City: <city.id>: <B><city.name></B>
 """
 from flask import Flask
@@ -35,8 +35,8 @@ def states_list():
 @app.route('/cities_by_states', strict_slashes=False)
 def cities_by_states():
     all_states = storage.all(State)
-    #all_cities = storage.all(City)
-    return render_template('8-cities_by_states.html', states=all_states, cities=all_cities)
+    # all_cities = storage.all(City)
+    return render_template('8-cities_by_states.html', states=all_states)
 
 
 @app.teardown_appcontext
