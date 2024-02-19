@@ -7,8 +7,8 @@ Routes:
         H1 tag: States
         UL tag: with the list of all State objects present in DBStorage
                 sorted by name (A->Z).
-    /states/<id>: display a HTML page: (inside the tag BODY) 
-    If a State object is found with this id: 
+    /states/<id>: display a HTML page: (inside the tag BODY)
+    If a State object is found with this id:
         H1 tag: "State:"
         H3 tag: "Cities:"
         UL tag: with the list of City objects linked to the State sorted
